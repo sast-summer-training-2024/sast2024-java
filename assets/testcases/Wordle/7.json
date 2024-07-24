@@ -1,0 +1,18 @@
+{
+    "input": {
+        "word_state": "RGGRR",
+        "alphabet_state": "GXRXGRRRRXXXXRXXXRYGXXRXRX",
+        "chance_left": 2,
+        "answer": "beast",
+        "word": "leave",
+        "status": "RUNNING"
+    },
+    "output": {
+        "word_state": "RGGRR",
+        "alphabet_state": "GXRXGRRRRXXRXRXXXRYGXRRXRX",
+        "chance_left": 1,
+        "answer": "beast",
+        "word": "leave",
+        "status": "RUNNING"
+    }
+}

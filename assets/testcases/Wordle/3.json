@@ -1,0 +1,18 @@
+{
+    "input": {
+        "word_state": "RRYRY",
+        "alphabet_state": "XXXXXRXXXXXRXXYXXYXXXXXXXX",
+        "chance_left": 5,
+        "answer": "cargo",
+        "word": "audio",
+        "status": "RUNNING"
+    },
+    "output": {
+        "word_state": "YRRRG",
+        "alphabet_state": "YXXRXRXXRXXRXXGXXYXXRXXXXX",
+        "chance_left": 4,
+        "answer": "cargo",
+        "word": "audio",
+        "status": "RUNNING"
+    }
+}

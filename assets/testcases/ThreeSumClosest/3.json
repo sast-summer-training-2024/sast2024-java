@@ -1,0 +1,9 @@
+{
+    "input": {
+        "nums": [0, 0, 0, 0],
+        "target": 1
+    },
+    "output": {
+        "answer": 0
+    }
+}

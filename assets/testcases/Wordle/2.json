@@ -1,0 +1,18 @@
+{
+    "input": {
+        "word_state": "XXXXX",
+        "alphabet_state": "XXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "chance_left": 6,
+        "answer": "fibre",
+        "word": "fever",
+        "status": "RUNNING"
+    },
+    "output": {
+        "word_state": "GYRRY",
+        "alphabet_state": "XXXXYGXXXXXXXXXXXYXXXRXXXX",
+        "chance_left": 5,
+        "answer": "fibre",
+        "word": "fever",
+        "status": "RUNNING"
+    }
+}

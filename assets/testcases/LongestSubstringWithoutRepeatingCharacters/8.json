@@ -1,0 +1,8 @@
+{
+    "input": {
+        "s": "ABCDEA"
+    },
+    "output": {
+        "answer": 5
+    }
+}

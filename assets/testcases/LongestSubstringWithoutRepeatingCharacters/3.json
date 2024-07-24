@@ -1,0 +1,8 @@
+{
+    "input": {
+        "s": "ABCDEFGHabcdefghi123456"
+    },
+    "output": {
+        "answer": 23
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "input": {
+        "s": "ABCABCBB"
+    },
+    "output": {
+        "answer": 3
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "input": {
+        "word_state": "GRRYG",
+        "alphabet_state": "XXRXGXXXXXXXRXXXXXXXXXXXXX",
+        "chance_left": 5,
+        "answer": "eerie",
+        "word": "egret",
+        "status": "RUNNING"
+    },
+    "output": {
+        "word_state": "GRGYR",
+        "alphabet_state": "XXRXGXRXXXXXRXXXXGXRXXXXXX",
+        "chance_left": 4,
+        "answer": "eerie",
+        "word": "egret",
+        "status": "RUNNING"
+    }
+}

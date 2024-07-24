@@ -1,0 +1,18 @@
+{
+    "input": {
+        "word_state": "YRRRG",
+        "alphabet_state": "YXXRXRXXRXXRXXGXXYXXRXXXXX",
+        "chance_left": 4,
+        "answer": "cargo",
+        "word": "crane",
+        "status": "RUNNING"
+    },
+    "output": {
+        "word_state": "GYYRR",
+        "alphabet_state": "YXGRRRXXRXXRXRGXXYXXRXXXXX",
+        "chance_left": 3,
+        "answer": "cargo",
+        "word": "crane",
+        "status": "RUNNING"
+    }
+}

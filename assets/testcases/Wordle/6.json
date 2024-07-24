@@ -1,0 +1,18 @@
+{
+    "input": {
+        "word_state": "YGRYY",
+        "alphabet_state": "GXRXGRRRRXXXXRXXXRYGXXXXXX",
+        "chance_left": 3,
+        "answer": "beast",
+        "word": "weary",
+        "status": "RUNNING"
+    },
+    "output": {
+        "word_state": "RGGRR",
+        "alphabet_state": "GXRXGRRRRXXXXRXXXRYGXXRXRX",
+        "chance_left": 2,
+        "answer": "beast",
+        "word": "weary",
+        "status": "RUNNING"
+    }
+}
