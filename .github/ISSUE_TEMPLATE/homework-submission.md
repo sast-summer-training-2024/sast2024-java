@@ -1,8 +1,8 @@
 ---
-name: Homework Submission
+name: Homework submission
 about: A template for homework submission.
 title: "[HOMEWORK] YourName 的 Java 作业提交"
-labels: homework submit
+labels: ''
 assignees: leverimmy
 
 ---
