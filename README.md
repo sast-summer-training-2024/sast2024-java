@@ -39,9 +39,9 @@
 
   ```java
   public class State {
-      Color[] word_state;
-      Color[] alphabet_state;
-      int chance_left;
+      Color[] wordState;
+      Color[] alphabetState;
+      int chancesLeft;
       String answer, word;
       GameStatus status;
   }

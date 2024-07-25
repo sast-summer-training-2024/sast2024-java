@@ -10,9 +10,9 @@ import static homework.Wordle.Wordle.*;
 public class State {
     Color[] wordState;                 // The guess state of word
     Color[] alphabetState;             // The guess state of the alphabet
-    int chancesLeft;                    // The chances left
-    String answer, word;                // The final answer, and the current guess word
-    GameStatus status;                  // The current game status
+    int chancesLeft;                   // The chances left
+    String answer, word;               // The final answer, and the current guess word
+    GameStatus status;                 // The current game status
 
     public State(String answer) {
         wordState = new Color[WORD_LENGTH];
