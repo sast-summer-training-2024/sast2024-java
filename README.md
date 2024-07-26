@@ -57,8 +57,9 @@
 
 - 注意：
   - `output` 的 `answer` 和 `word` 应与 `input` 相同。
-  - `output` 的 `chance_left` 应恰比 `input` 少 $1$。在 `chance_left` 为 $1$ 且此轮猜错的情况下，除了将 `chance_left` 变为 $0$​，同时将 `status` 变为 `LOST`，你仍应更新 `word_state` 和 `alphabet_state`。
-  - 当此轮猜对的情况下，除了将 `status` 变为 `WON`，你仍应更新 `word_state` 和 `alphabet_state`。
+  - `output` 的 `chance_left` 应恰比 `input` 少 $1$。
+    - 在 `chance_left` 为 $1$ 且此轮猜错的情况下，除了将 `chance_left` 变为 $0$​，同时将 `status` 变为 `LOST`，你仍应更新 `word_state` 和 `alphabet_state`。
+    - 当此轮猜对的情况下，除了将 `status` 变为 `WON`，你仍应更新 `word_state` 和 `alphabet_state`。
   - 当 `word` 中出现多个相同的字母 $\sigma$ 时，应：
     - 首先将位置正确的 $\sigma$ 标为绿色；
     - 再将位置不正确的 $\sigma$ 从左往右，标为黄色或红色。若此时已标记的 $\sigma$ 的个数未超过 `answer` 中的个数，则应标为黄色；否则应标为红色。
