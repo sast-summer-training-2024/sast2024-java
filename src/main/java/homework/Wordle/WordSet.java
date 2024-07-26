@@ -7,8 +7,8 @@ import java.util.Scanner;
 import java.util.Set;
 
 public class WordSet {
-    private static Set<String> finalSet = new HashSet<>();           // Words that are allowed to be guessed
-    private static Set<String> accSet = new HashSet<>();             // Words that are allowed to be answers
+    private static Set<String> finalSet = new HashSet<>();           // Words that are allowed to be answers
+    private static Set<String> accSet = new HashSet<>();             // Words that are allowed to be guessed
 
     public WordSet(String final_set_path, String acc_set_path) {
         finalSet = retrieve_set_from_file(final_set_path);
