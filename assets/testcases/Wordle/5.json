@@ -10,7 +10,7 @@
     "output": {
         "word_state": "GGGGG",
         "alphabet_state": "GXGRRRGXRXXRXRGXXGXXRXXXXX",
-        "chance_left": 3,
+        "chance_left": 2,
         "answer": "cargo",
         "word": "cargo",
         "status": "WON"
