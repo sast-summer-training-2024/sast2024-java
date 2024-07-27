@@ -49,21 +49,22 @@
 
   - 其中 `Color` 是一个枚举类，成员可以为 `GRAY`、`RED`、`YELLOW` 或 `GREEN`。
   - `GameStatus` 也是一个枚举类，成员可以为 `RUNNING`、`LOST` 或 `WON`，分别代表着游戏未结束、失败、获胜。
-  - `word_state` 是当前局面下此轮猜测的单词中每一个字母被猜测的状态。
-  - `alphabet_state` 是当前局面下每一个字母被猜测的状态。
-  - `chance_left` 是当前局面还剩多少次机会。若输入满足 `chance_left` 为 $1$ 且此轮猜错，则 `chance_left` 变为 $0$ 并游戏结束。
+  - `wordState` 是当前局面下此轮猜测的单词中每一个字母被猜测的状态。
+  - `alphabetState` 是当前局面下每一个字母被猜测的状态。
+  - `chancesLeft` 是当前局面还剩多少次机会。若输入满足 `chancesLeft` 为 $1$ 且此轮猜错，则 `chancesLeft` 变为 $0$ 并游戏结束。
   - `answer` 是标准答案，`word` 是此轮猜测的答案。
   - `status` 是当前局面的运行状态。
 
 - 注意：
   - `output` 的 `answer` 和 `word` 应与 `input` 相同。
-  - `output` 的 `chance_left` 应恰比 `input` 少 $1$。
-    - 在 `chance_left` 为 $1$ 且此轮猜错的情况下，除了将 `chance_left` 变为 $0$​，同时将 `status` 变为 `LOST`，你仍应更新 `word_state` 和 `alphabet_state`。
-    - 当此轮猜对的情况下，除了将 `status` 变为 `WON`，你仍应更新 `word_state` 和 `alphabet_state`。
+  - `output` 的 `chancesLeft` 应恰比 `input` 少 $1$。
+    - 在 `chancesLeft` 为 $1$ 且此轮猜错的情况下，除了将 `chancesLeft` 变为 $0$​，同时将 `status` 变为 `LOST`，你仍应更新 `wordState` 和 `alphabetState`。
+    - 当此轮猜对的情况下，除了将 `status` 变为 `WON`，你仍应更新 `wordState` 和 `alphabetState`。
   - 当 `word` 中出现多个相同的字母 $\sigma$ 时，应：
     - 首先将位置正确的 $\sigma$ 标为绿色；
     - 再将位置不正确的 $\sigma$ 从左往右，标为黄色或红色。若此时已标记的 $\sigma$ 的个数未超过 `answer` 中的个数，则应标为黄色；否则应标为红色。
     - 举个例子，假设 `answer` 是 `aabba` 而 `word` 是 `abaaa`（这两个词都不存在，此例仅做演示），此为第一轮猜测，则 `word_state` 应为 `GYYRG`。首先将 `word` 中的第一个 `a` 和最后一个 `a` 均标记为绿色 `G`。然后将第二个 `a` 标为黄色 `Y`，此时标记的 `a` 的数量已经等于 `answer` 中  `a` 的数量。因此，第三个 `a` 标记为红色 `R`。
+  - 对于 `alphabetState` 而言：如果一个字母曾经已经被猜测为绿色，则它不会变为黄色或红色；如果一个字母已经被猜测为黄色，则它不会变为红色。即优先级：绿色 > 黄色 > 红色 > 灰色。
   - `answer` 和 `word` 都将在读入时转为大写。
 
 ## 如何测试
