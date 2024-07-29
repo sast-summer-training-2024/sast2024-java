@@ -16,7 +16,7 @@ public class ExceptionHandlingExample {
         } catch (ArithmeticException e) { // will be executed if n = 0
             System.out.println("Number is zero.");
         } catch (InputMismatchException e) {
-            System.out.println("Number is not a integer.");
+            System.out.println("Number is not an integer.");
         } catch (Exception e) { // will be executed if other exception occurs
             e.printStackTrace();
         } finally { // will be executed always
