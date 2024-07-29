@@ -6,7 +6,14 @@ public class ThreeSumClosest {
     public static int threeSumClosest(int[] nums, int target) {
         int n = nums.length, ans = 0;
         // TODO begin
-
+        for(int i=0;i<n;++i){
+            for(int j=i+1;j<n;++j){
+                for(int k=j+1;k<n;++k){
+                    int sum = nums[i]+nums[j]+nums[k];
+                    if(Math.abs(sum-target)<Math.abs(ans-target)) ans = sum;
+                }
+            }
+        }
         // TODO end
         return ans;
     }
