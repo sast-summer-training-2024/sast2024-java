@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ffd7e11-6999-44d7-8b8b-e25330905356" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/introduction/ExceptionHandlingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/introduction/ExceptionHandlingExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/examples/oop/EnumExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/oop/EnumExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/examples/oop/StaticExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/oop/StaticExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/examples/oop/package1/package2/PackageExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/oop/package1/package2/PackageExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +60,7 @@
     "Gradle.LongestSubstringWithoutRepeatingCharactersTest.executor": "Run",
     "Gradle.ThreeSumClosestTest.executor": "Run",
     "Gradle.WordleTest.executor": "Run",
+    "Gradle.sast2024-java [:AbstractClassExample.main()].executor": "Run",
     "Gradle.sast2024-java [:ArraysAndArrayListExample.main()].executor": "Run",
     "Gradle.sast2024-java [:BigIntegerAndBigDecimalExample.main()].executor": "Run",
     "Gradle.sast2024-java [:CompositionExample.main()].executor": "Run",
@@ -73,6 +75,7 @@
     "Gradle.sast2024-java [:LinkedListExample.main()].executor": "Run",
     "Gradle.sast2024-java [:ObjectExample.main()].executor": "Run",
     "Gradle.sast2024-java [:OperatorsExample.main()].executor": "Run",
+    "Gradle.sast2024-java [:PackageExample.main()].executor": "Run",
     "Gradle.sast2024-java [:StaticExample.main()].executor": "Run",
     "Gradle.sast2024-java [:StringAndStringBufferAndStringBuilderExample.main()].executor": "Run",
     "Gradle.sast2024-java [:VariablesExample.main()].executor": "Run",
@@ -120,7 +123,7 @@
       <workItem from="1721834230250" duration="1136000" />
       <workItem from="1721871200225" duration="14000" />
       <workItem from="1721871623354" duration="33000" />
-      <workItem from="1722241030051" duration="6436000" />
+      <workItem from="1722241030051" duration="8740000" />
     </task>
     <servers />
   </component>

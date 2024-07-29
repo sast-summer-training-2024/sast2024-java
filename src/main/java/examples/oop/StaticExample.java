@@ -9,6 +9,10 @@ public class StaticExample {
             this.name = name;
             counter++;
         }
+        @Override
+        public String toString() {
+            return "Car [name=" + name + "]";
+        }
     }
     public static void main(String[] args) {
         Car a = new Car("Benz");

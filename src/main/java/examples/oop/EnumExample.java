@@ -19,7 +19,7 @@ public class EnumExample {
         Color[] colors = Color.values();
         for (Color color : colors) {
             System.out.println(color + " toString() = " + color.toString());
-            System.out.println(color + " name()" + color.name());
+            System.out.println(color + " name() = " + color.name());
             System.out.println(color + " hashCode() = " + color.hashCode());
             System.out.println(color + " ordinal() = " + color.ordinal());
         }
@@ -28,7 +28,7 @@ public class EnumExample {
         for (ColorWithAbbr color : colorsWithAbbr) {
             System.out.println(color + " getAbbr() = " + color.getAbbr());
             System.out.println(color + " toString() = " + color);
-            System.out.println(color + " name()" + color.name());
+            System.out.println(color + " name() = " + color.name());
             System.out.println(color + " hashCode() = " + color.hashCode());
             System.out.println(color + " ordinal() = " + color.ordinal());
         }
